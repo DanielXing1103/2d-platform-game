@@ -1,0 +1,1 @@
+2d platform game with OpenGL and QT
