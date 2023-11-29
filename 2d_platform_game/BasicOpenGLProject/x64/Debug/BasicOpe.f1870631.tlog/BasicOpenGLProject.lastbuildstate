@@ -1,2 +1,2 @@
-PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.34.31933:TargetPlatformVersion=10.0.22000.0:VcpkgTriplet=x64-windows:
-Debug|x64|C:\Code\UCM\cse165\2d_platform_game\2d_platform_game\|
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.38.33130:TargetPlatformVersion=10.0.22000.0:VcpkgTriplet=x64-windows:
+Debug|x64|C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\|
