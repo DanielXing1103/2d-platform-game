@@ -1,6 +1,10 @@
 ﻿  main.cpp
-C:\Code\UCM\cse165\2d_platform_game\2d_platform_game\BasicOpenGLProject\main.cpp(8,23): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Code\UCM\cse165\2d_platform_game\2d_platform_game\BasicOpenGLProject\main.cpp(22,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
-C:\Code\UCM\cse165\2d_platform_game\2d_platform_game\BasicOpenGLProject\main.cpp(53,32): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Code\UCM\cse165\2d_platform_game\2d_platform_game\BasicOpenGLProject\main.cpp(54,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  BasicOpenGLProject.vcxproj -> C:\Code\UCM\cse165\2d_platform_game\2d_platform_game\x64\Debug\BasicOpenGLProject.exe
+C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\BasicOpenGLProject\Player.h(41,68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\BasicOpenGLProject\main.cpp(9,15): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\BasicOpenGLProject\main.cpp(10,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\BasicOpenGLProject\main.cpp(55,18): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\BasicOpenGLProject\main.cpp(86,33): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\BasicOpenGLProject\main.cpp(87,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  BasicOpenGLProject.vcxproj -> C:\Code\UCM\cse165\2d\2d-platform-game\2d_platform_game\x64\Debug\BasicOpenGLProject.exe
