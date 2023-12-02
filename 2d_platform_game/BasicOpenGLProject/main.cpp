@@ -4,7 +4,6 @@
 #include "Player.h"
 #include "Land.h"
 #include "Platform.h"
-#include "Menu.h"
 #define FPS 60
 bool collision; // Used for jumping when we land on the ground or floating platform
 float gravity = -0.006;
@@ -12,19 +11,6 @@ platform p1(20, -3.5, 4, 1, -0.1);
 player myPlayer(0, -2, 1, 1, 0, 0, gravity); // Player
 land ground(0, -10, 20, 10);
 
-bool inMenu = true; // Initially, the game starts with the menu
-Menu mainMenu; // Menu instance
-
-
-
-void mouse_click_callback(int button, int state, int x, int y) {
-    if (inMenu) {
-        mainMenu.handleMouseClick(button, state, x, y);
-        if (mainMenu.isGameStarted()) { // You should implement this method in your Menu class
-            inMenu = false;
-        }
-    }
-}
 void playgame() {
     if (!myPlayer.gameover) {//gameover logic are in player
         myPlayer.draw();//player render
@@ -123,6 +109,7 @@ int main(int argc, char** argv) {
     glutDisplayFunc(display_call_back);
     glutReshapeFunc(reshape_call_back);
     glutKeyboardFunc(keyboard_func);
+
     glutTimerFunc(0, timer_call_back, 0);
     init();
     glutMainLoop();
