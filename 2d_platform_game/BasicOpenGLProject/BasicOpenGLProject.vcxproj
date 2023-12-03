@@ -138,6 +138,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Users\zbmzn\Downloads\stb_image.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Users\zbmzn\Downloads\Time.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\Users\zbmzn\Downloads\Triangle.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Land.h" />
     <ClInclude Include="Menu.h" />
