@@ -17,7 +17,7 @@ public:
 
 
     void draw()  {
-        entity::draw(0.0f, 0.0f, 1.0f);
+        entity::draw(1.0f, 1.0f, 1.0f);
     }
 };
 

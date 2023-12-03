@@ -39,7 +39,7 @@ public:
 
 
         // Text to be displayed
-        const char* text = "Click Space or W to start";
+        const char* text = "Click Space start\nUse W to Jump";
 
         // Calculate the length of the text
         float textWidth = 0;

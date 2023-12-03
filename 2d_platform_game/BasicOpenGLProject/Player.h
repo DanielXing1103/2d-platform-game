@@ -57,5 +57,15 @@ public:
     void draw() {
         entity::draw(1.0, 0, 0);
     }
+    void reset() {
+        // Reset the player's properties to their initial values
+        xpos = 0;  // Example initial position
+        ypos = -2; // Adjust these values based on your initial game setup
+        xlen = 1;
+        ylen = 1;
+        xspeed = 0;
+        yspeed = 0;
+        gameover = false;
+    }
 };
 #endif
